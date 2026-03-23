@@ -1,5 +1,6 @@
 # Comunidades indígenas INDI 2024
 
+**Tipo de Dato:** Estatus de protección
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

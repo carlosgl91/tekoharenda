@@ -1,5 +1,6 @@
 # Temperatura anual promedio en el periodo 1991-2019
 
+**Tipo de Dato:** climáticos
 **Descripción:** Para la generación de datos de temperatura se utilizó el set de datos de ERA 5 - Land1, el cual es un reanálisis
 climático desarrollado por el ECMWF (Centro Europeo de Predicción Meteorológica a Medio Plazo).
 Concretamente, se utilizó la banda de temperatura del aire (2m) en Kelvin, la cual fue convertida a grados

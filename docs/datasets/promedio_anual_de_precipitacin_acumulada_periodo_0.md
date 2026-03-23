@@ -1,5 +1,6 @@
 # promedio anual de precipitación acumulada periodo 01-01-1994 a 01-01-2024
 
+**Tipo de Dato:** climáticos
 **Descripción:** Los datos de precipitación fueron calculados utilizando la base de datos CHIRPS Pentad: Climate Hazards Center InfraRed Precipitation With Station Data dentro de la plataforma Google Earth Engine abarcando el periodo 01-01-1994 a 01-01-2024. Los datos resultantes corresponden al promedio anual de precipitación acumulada en milímetros.
 
 **Resolución Espacial:** 5566  metros

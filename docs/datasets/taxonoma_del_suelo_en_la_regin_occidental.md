@@ -1,5 +1,6 @@
 # Taxonomía del suelo en la Región Occidental
 
+**Tipo de Dato:** categorico
 **Descripción:** El proyecto Sistema Ambiental del Chaco (PSACh) BGR (Bundesanstalt für Geowissenschaften und
 Rohstoffe  Hannover / Rca. Federal de Alemania Cooperación Técnica y el MAG/SSERNMA-DOA
 generó datos para la región Occiental basados en el sistema del Mapa Mundial de Suelos (FAO-UNESCO,

@@ -1,5 +1,6 @@
 # MapBiomas colección 5 1985-2023
 
+**Tipo de Dato:** Uso y cobertura del suelo
 **Descripción:** Se utilizó el conjunto de datos MapBiomas colección 2 (https://paraguay.mapbiomas.org/mapas-de-la-
 coleccion/), el cual proporciona mapas anuales de cobertura y uso del suelo a nivel nacional, con una
 resolución espacial de 30 metros y una cobertura temporal que abarca desde el año 1985 hasta el 2023, lo

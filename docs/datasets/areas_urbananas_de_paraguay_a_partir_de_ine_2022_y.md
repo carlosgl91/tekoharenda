@@ -1,5 +1,6 @@
 # Areas urbananas de Paraguay a partir de INE 2022 Y OSM 2025
 
+**Tipo de Dato:** Uso y cobertura del suelo
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

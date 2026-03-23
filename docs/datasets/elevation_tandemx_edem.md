@@ -1,5 +1,6 @@
 # elevation_tandem-x_edem
 
+**Tipo de Dato:** Topográficos
 **Descripción:** 30m elevation dataset
 
 **Resolución Espacial:** 30 metros

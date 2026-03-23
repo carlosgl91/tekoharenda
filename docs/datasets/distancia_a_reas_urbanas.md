@@ -1,5 +1,6 @@
 # Distancia a áreas urbanas
 
+**Tipo de Dato:** distancia
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

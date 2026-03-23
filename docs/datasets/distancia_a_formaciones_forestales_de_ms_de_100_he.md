@@ -1,5 +1,6 @@
 # Distancia a formaciones forestales de más de 100 hectáreas
 
+**Tipo de Dato:** distancia
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

@@ -1,5 +1,6 @@
 # Formaciones forestales más de 100 ha
 
+**Tipo de Dato:** Uso y cobertura del suelo
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

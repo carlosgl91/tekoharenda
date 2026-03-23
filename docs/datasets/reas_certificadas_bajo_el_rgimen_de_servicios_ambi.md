@@ -1,5 +1,6 @@
 # Áreas certificadas bajo el régimen de servicios ambientales
 
+**Tipo de Dato:** Estatus de protección
 **Descripción:** 30m rasterized based on Mapbiomas grid
 
 **Resolución Espacial:** 30 metros

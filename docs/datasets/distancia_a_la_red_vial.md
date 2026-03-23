@@ -1,5 +1,6 @@
 # Distancia a la red vial
 
+**Tipo de Dato:** distancia
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

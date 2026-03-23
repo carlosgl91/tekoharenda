@@ -1,5 +1,6 @@
 # Áreas urbanas de Paraguay a partir de INE 2022
 
+**Tipo de Dato:** Uso y cobertura del suelo
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

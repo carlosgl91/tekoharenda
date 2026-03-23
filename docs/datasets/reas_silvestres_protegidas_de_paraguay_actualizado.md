@@ -1,5 +1,6 @@
 # Áreas silvestres protegidas de Paraguay actualizado a agosto de 2022
 
+**Tipo de Dato:** Estatus de protección
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

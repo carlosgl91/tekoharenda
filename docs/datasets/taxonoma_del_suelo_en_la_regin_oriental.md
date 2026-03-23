@@ -1,5 +1,6 @@
 # Taxonomía del suelo en la Región Oriental
 
+**Tipo de Dato:** categorico
 **Descripción:** El proyecto Racionalización de Uso de la Tierra PRUT (1995) Banco Mundial  Ministerio de Agricultura
 y Ganadería MAG / Subsecretaria de Estado de Recursos Naturales y Medio Ambiente (SEERNMA)  Dirección de Ordenamiento Ambiental (DOA), utiliza el sistema de clasificación jerárquica USDA Soil
 Taxonomy, que busca agrupar suelos similares en categorías cada vez más generales. Fue diseñada para

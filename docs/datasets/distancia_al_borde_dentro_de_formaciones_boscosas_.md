@@ -1,5 +1,6 @@
 # Distancia al borde dentro de formaciones boscosas de más de 100 ha
 
+**Tipo de Dato:** distancia
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros

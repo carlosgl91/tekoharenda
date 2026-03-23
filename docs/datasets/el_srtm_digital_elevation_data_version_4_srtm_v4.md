@@ -1,5 +1,6 @@
 # El SRTM Digital Elevation Data Version 4 (SRTM v4)
 
+**Tipo de Dato:** Topográficos
 **Descripción:** 90 m elevation DEM
 
 **Resolución Espacial:** 90 metros

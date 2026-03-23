@@ -13,9 +13,12 @@ def clean_filename(name):
     """Limpia el nombre de la variable para usarlo como nombre de archivo."""
     name = str(name).lower().replace(' ', '_')
     name = re.sub(r'[^a-z0-9_]', '', name)
-    return name[:50] # Limitar longitud
+    return name[:50]
 
-print("Generando catálogo Tekoharenda...")
+print("Generando catálogo Tekoharenda agrupado...")
+
+# Diccionario para agrupar los datos por Tipo
+catalogo_agrupado = {}
 
 with open(csv_file, mode='r', encoding='latin-1') as file:
     reader = csv.DictReader(file)
@@ -24,6 +27,10 @@ with open(csv_file, mode='r', encoding='latin-1') as file:
         titulo = row.get('Variable', '').strip()
         if not titulo:
             continue
+            
+        tipo = row.get('Tipo', '').strip()
+        if not tipo:
+            tipo = "Otros" # Por si alguna fila no tiene tipo definido
             
         descripcion = row.get('Descripción', '').strip()
         resolucion = row.get('Resolución nativa en metros', 'No especificada')
@@ -37,6 +44,7 @@ with open(csv_file, mode='r', encoding='latin-1') as file:
         
         # Generar el contenido Markdown
         md_content = f"# {titulo}\n\n"
+        md_content += f"**Tipo de Dato:** {tipo}\n"
         md_content += f"**Descripción:** {descripcion}\n\n"
         md_content += f"**Resolución Espacial:** {resolucion} metros\n"
         md_content += f"**Fuente Original:** {fuente}\n"
@@ -59,6 +67,21 @@ with open(csv_file, mode='r', encoding='latin-1') as file:
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(md_content)
             
-        print(f"✓ Creado: {filename}")
+        # Agregarlo al diccionario según su Tipo
+        if tipo not in catalogo_agrupado:
+            catalogo_agrupado[tipo] = []
+        catalogo_agrupado[tipo].append(f"      - '{titulo}': datasets/{filename}")
 
 print("\n¡Archivos generados con éxito!")
+print("-" * 50)
+print("Copia y pega este nuevo menú en tu archivo mkdocs.yml:\n")
+
+print("nav:")
+print("  - Inicio: index.md")
+print("  - Catálogo de Datos:")
+
+# Imprimir el menú agrupado por categorías
+for tipo, items in catalogo_agrupado.items():
+    print(f"    - {tipo}:")
+    for item in items:
+        print(item)

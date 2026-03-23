@@ -1,5 +1,6 @@
 # Formaciones forestales mayores o iguales a 1ha - Año 2023
 
+**Tipo de Dato:** Uso y cobertura del suelo
 **Descripción:** 
 
 **Resolución Espacial:** 30 metros
