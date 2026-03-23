@@ -17,7 +17,7 @@ def clean_filename(name):
 
 print("Generando catálogo Tekoharenda...")
 
-with open(csv_file, mode='r', encoding='utf-8-sig') as file:
+with open(csv_file, mode='r', encoding='latin-1') as file:
     reader = csv.DictReader(file)
     
     for row in reader:
