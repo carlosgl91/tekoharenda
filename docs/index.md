@@ -12,4 +12,4 @@ El objetivo de este sitio es centralizar, documentar y facilitar el acceso a la 
 
 ---
 
-*Para sugerir un nuevo conjunto de datos o reportar un error, por favor abre un "issue" en nuestro repositorio de GitHub.*
+*Para sugerir un nuevo conjunto de datos o reportar un error, por favor abre un "issue" en nuestro [repositorio] (https://github.com/carlosgl91/tekoharenda) de GitHub.*
