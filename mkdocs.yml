@@ -12,3 +12,27 @@ theme:
 
 nav:
   - Inicio: index.md
+  - Catálogo de Datos:
+    - 'Áreas certificadas bajo el régimen de servicios ambientales': datasets/reas_certificadas_bajo_el_rgimen_de_servicios_ambi.md
+    - 'Elevation TanDEM-X EDEM': datasets/elevation_tandemx_edem.md
+    - 'El SRTM Digital Elevation Data Version 4 (SRTM v4)': datasets/el_srtm_digital_elevation_data_version_4_srtm_v4.md
+    - 'Promedio anual de precipitación acumulada periodo 01-01-1994 a 01-01-2024': datasets/promedio_anual_de_precipitacin_acumulada_periodo_0.md
+    - 'Temperatura anual promedio en el periodo 1991-2019': datasets/temperatura_anual_promedio_en_el_periodo_19912019.md
+    - 'MapBiomas colección 5 1985-2023': datasets/mapbiomas_coleccin_5_19852023.md
+    - 'Datos de WorldClimb 1970-2000': datasets/datos_de_worldclimb_19702000__temperatura_mnima_me.md
+    - 'Formaciones forestales mayores o iguales a 1ha - Año 2023': datasets/formaciones_forestales_mayores_o_iguales_a_1ha__ao.md
+    - 'Formaciones forestales más de 100 ha': datasets/formaciones_forestales_ms_de_100_ha.md
+    - 'Áreas silvestres protegidas de Paraguay actualizado a agosto de 2022': datasets/reas_silvestres_protegidas_de_paraguay_actualizado.md
+    - 'Comunidades indígenas FAPI 2024': datasets/comunidades_indgenas_fapi_2024.md
+    - 'Comunidades indígenas INDI 2024': datasets/comunidades_indgenas_indi_2024.md
+    - 'Áreas urbanas de Paraguay a partir de INE 2022': datasets/reas_urbanas_de_paraguay_a_partir_de_ine_2022.md
+    - 'Areas urbananas de Paraguay a partir de INE 2022 Y OSM 2025': datasets/areas_urbananas_de_paraguay_a_partir_de_ine_2022_y.md
+    - 'Distancia a áreas urbanas': datasets/distancia_a_reas_urbanas.md
+    - 'Distancia a áreas urbanas, industriales y comerciales': datasets/distancia_a_reas_urbanas_industriales_y_comerciale.md
+    - 'Distancia a formaciones forestales de más de 100 hectáreas': datasets/distancia_a_formaciones_forestales_de_ms_de_100_he.md
+    - 'Distancia al borde dentro de formaciones boscosas de más al menos 1 ha': datasets/distancia_al_borde_dentro_de_formaciones_boscosas_.md
+    - 'Distancia al borde dentro de formaciones boscosas de más de 100 ha': datasets/distancia_al_borde_dentro_de_formaciones_boscosas_.md
+    - 'Distancia a ecosistemas acuáticos lóticos': datasets/distancia_a_ecosistemas_acuticos_lticos.md
+    - 'Distancia a la red vial': datasets/distancia_a_la_red_vial.md
+    - 'Taxonomía del suelo en la Región Oriental': datasets/taxonoma_del_suelo_en_la_regin_oriental.md
+    - 'Taxonomía del suelo en la Región Occidental': datasets/taxonoma_del_suelo_en_la_regin_occidental.md
