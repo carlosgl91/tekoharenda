@@ -1,0 +1,14 @@
+site_name: Tekoharenda
+site_description: Catálogo Nacional de Datos Espaciales del Paraguay
+site_url: https://TU_USUARIO.github.io/tekoharenda 
+
+theme:
+  name: material
+  palette:
+    primary: green
+  features:
+    - navigation.tabs
+    - search.suggest
+
+nav:
+  - Inicio: index.md
