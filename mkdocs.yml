@@ -8,10 +8,16 @@ theme:
     primary: green
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
+    #- navigation.footer
     - search.suggest
+   # - toc.integrate         # Integra los subtítulos en el menú izquierdo
+    - navigation.expand     # Hace que las categorías sean desplegables
+    - navigation.sections   # Hace que los bloques del menú se vean más como secciones ordenadas
 
 nav:
   - Inicio: index.md
+
   - Catálogo de Datos:
     - 'Áreas certificadas bajo el régimen de servicios ambientales': datasets/reas_certificadas_bajo_el_rgimen_de_servicios_ambi.md
     - 'Elevation TanDEM-X EDEM': datasets/elevation_tandemx_edem.md
@@ -36,3 +42,9 @@ nav:
     - 'Distancia a la red vial': datasets/distancia_a_la_red_vial.md
     - 'Taxonomía del suelo en la Región Oriental': datasets/taxonoma_del_suelo_en_la_regin_oriental.md
     - 'Taxonomía del suelo en la Región Occidental': datasets/taxonoma_del_suelo_en_la_regin_occidental.md
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/carlos-gim%C3%A9nez-3b3267169/
+      name: Carlos Giménez
+copyright: Copyright &copy; 2026 Carlos Giménez
