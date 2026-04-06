@@ -7,6 +7,22 @@
 **Fuente Original:** Deutsche Zentrum für Luft - und Raumfahrt (DLR)
 **Fecha de Publicación:** 2010-2014
 
+```javascript
+
+var elevVis = {
+  min: 0,
+  max: 900, 
+  palette: [
+    '006600', '002200', 'fff5d7', 'ab6b28', 'b30303', 'ffffff'
+  ]
+};
+
+var dataset = ee.Image("projects/arapy-487423/assets/topography/elevation30m_tandem_x_dem"); 
+
+Map.addLayer(dataset, elevVis, 'TANDEM-X DEM');
+
+```
+
 ## Cita
 Si utilizas estos datos, por favor cita la fuente original:
 > *Deutsche Zentrum für Luft - und Raumfahrt (DLR). 2024. TanDEM-X - Edited Digital Elevation Model (EDEM) - Global, 30m. https://download.geoservice.dlr.de/TDM30_EDEM/#details*
