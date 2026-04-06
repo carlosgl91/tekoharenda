@@ -1,10 +1,13 @@
 # Comunidades indígenas FAPI 2024
 
 **Tipo de Dato:** Estatus de protección
-**Descripción:** 
+
+**Descripción:** Los datos fueron procesados a fin de obtener una capa raster binaria, donde el valor “1” corresponde a píxeles cubiertos por comunidades indígenas y 0 a áreas no cubiertas por dichas áreas de acuerdo con ambas bases de datos.
 
 **Resolución Espacial:** 30 metros
+
 **Fuente Original:** Generado a patir de FAPI 2024
+
 **Fecha de Publicación:** 2024
 
 ## Acceso en Google Earth Engine
@@ -13,7 +16,8 @@ Puedes acceder a este conjunto de datos en el Code Editor de GEE usando el sigui
 
 ```javascript
 var dataset = ee.Image("projects/arapy-487423/assets/com_ind_fapi_raster_2024"); 
-Map.addLayer(dataset, {}, 'Comunidades indígena...');
+
+Map.addLayer(dataset, {}, 'Comunidades indígena FAPI 2024');
 ```
 
 ## Cita
