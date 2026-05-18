@@ -1,6 +1,6 @@
 # Áreas certificadas bajo el régimen de servicios ambientales
 
-**Tipo de Dato:** Estatus de protección
+**Categoría:** Estatus de protección
 
 **Descripción:** áreas certificadas bajo el régimen de servicios ambientales (ACSA) presentan un estatus distinto de restricción de uso. Los datos utilizados corresponden a la base de datos espacial de áreas certificadas del MADES (MADES, 2022b).
 

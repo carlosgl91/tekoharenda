@@ -1,6 +1,6 @@
 # WorldClimb 1970-2000
 
-**Tipo de Dato:** Climáticos
+**Categoría:** Climáticos
 
 **Descripción:** El conjunto de datos climáticos históricos de WorldClim versión 2.1  abarcando el periodo de 1970-2000, ha sido procesado cubriendo el área de Paraguay. Se incluyen datos climáticos mensuales de temperatura mínima, media y máxima, precipitación, radiación solar, velocidad del viento, presión de vapor de agua y precipitación total. También se incluyen 19 variables bioclimáticas.
 

@@ -1,6 +1,6 @@
 # El SRTM Digital Elevation Data Version 4 (SRTM v4)
 
-**Tipo de Dato:** Topográficos
+**Categoría:** Topográficos
 
 **Descripción:** El conjunto de datos digitales de elevación de la Misión Topográfica de Radar del Transbordador (SRTM) se creó originalmente para proporcionar datos de elevación consistentes y de alta calidad a escala casi global. Esta versión de los datos digitales de elevación de la SRTM se ha procesado para completar la información faltante y facilitar su uso.
 
