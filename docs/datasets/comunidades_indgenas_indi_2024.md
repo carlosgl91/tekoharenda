@@ -1,6 +1,6 @@
 # Comunidades indígenas INDI 2024
 
-**Tipo de Dato:** Estatus de protección
+**Categoría:** Estatus de protección
 
 **Descripción:** Los datos fueron procesados a fin de obtener una capa raster binaria, donde el valor “1” corresponde a píxeles cubiertos por comunidades indígenas y 0 a áreas no cubiertas por dichas áreas de acuerdo con ambas bases de datos.
 

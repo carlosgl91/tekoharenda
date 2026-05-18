@@ -1,14 +1,14 @@
 # Taxonomía del suelo en la Región Oriental
 
-**Tipo de Dato:** Taxonomía del suelo
+**Categoría:** Taxonomía del suelo
 
-**Descripción:** El proyecto Racionalización de Uso de la Tierra PRUT (1995) Banco Mundial  Ministerio de Agricultura y Ganadería MAG / Subsecretaria de Estado de Recursos Naturales y Medio Ambiente (SEERNMA)  Dirección de Ordenamiento Ambiental (DOA), utiliza el sistema de clasificación jerárquica USDA Soil Taxonomy, que busca agrupar suelos similares en categorías cada vez más generales. Fue diseñada para apoyar los levantamientos de suelos en EE. UU., específicamente la correlación de series de suelos y la provisión de nombres de unidades cartográficas con diversos niveles de detalle cartográfico.
+**Descripción:** El proyecto Racionalización de Uso de la Tierra PRUT (1995) Banco Mundial Ministerio de Agricultura y Ganadería MAG / Subsecretaria de Estado de Recursos Naturales y Medio Ambiente (SEERNMA) Dirección de Ordenamiento Ambiental (DOA), utiliza el sistema de clasificación jerárquica USDA Soil Taxonomy, que busca agrupar suelos similares en categorías cada vez más generales. Fue diseñada para apoyar los levantamientos de suelos en EE. UU., específicamente la correlación de series de suelos y la provisión de nombres de unidades cartográficas con diversos niveles de detalle cartográfico.
 
 Los datos fueron curados en su formato vectorial y posteriormente rasterizados al nivel de subgrupos, utilizando como grilla de referencia el dataset de MapBiomas Paraguay colección 2. Se generó así mismo un diccionario de datos el cual incluye los códigos raster y descripción de acuerdo con la legenda FAO 1990
 
-**Resolución Espacial:** 30m metros
+**Resolución Espacial:** 30 metros
 
-**Fuente Original:** 
+**Fuente Original:** PRUT 1995
 
 **Fecha de Publicación:** 1995
 
@@ -86,6 +86,4 @@ Map.addLayer(dataset, {}, 'Taxonomía del suelo ...');
 
 ## Cita
 Si utilizas estos datos, por favor cita la fuente original:
-> *López, O.; González, E.; Llamas, P.; Molinas, A.; Franco, E.; García. S.; Ríos, E. 1995. Estudio de
-reconocimiento de suelos, capacidad de uso de la tierra y propuesta de ordenamiento territorial preliminar
-de la Región Oriental del Paraguay (PRUT). Asunción, PY: MAG/SRNMA/BM/PRUT. v.1, 197 p*
+> *López, O.; González, E.; Llamas, P.; Molinas, A.; Franco, E.; García. S.; Ríos, E. 1995. Estudio de reconocimiento de suelos, capacidad de uso de la tierra y propuesta de ordenamiento territorial preliminar de la Región Oriental del Paraguay (PRUT). Asunción, PY: MAG/SRNMA/BM/PRUT. v.1, 197 p*

@@ -44,7 +44,7 @@ with open(csv_file, mode='r', encoding='latin-1') as file:
         
         # Generar el contenido Markdown
         md_content = f"# {titulo}\n\n"
-        md_content += f"**Tipo de Dato:** {tipo}  \n\n" # <-- Dos espacios antes del \n
+        md_content += f"**Categoría:** {tipo}  \n\n" # <-- Dos espacios antes del \n
         md_content += f"**Descripción:** {descripcion}\n\n"
         md_content += f"**Resolución Espacial:** {resolucion} metros  \n\n" # <-- Dos espacios antes del \n
         md_content += f"**Fuente Original:** {fuente}  \n\n" # <-- Dos espacios antes del \n

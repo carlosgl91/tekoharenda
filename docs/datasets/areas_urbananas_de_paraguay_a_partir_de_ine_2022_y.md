@@ -1,6 +1,6 @@
 # Areas urbananas de Paraguay a partir de INE 2022 Y OSM 2025
 
-**Tipo de Dato:** Uso y cobertura del suelo
+**Categoría:** Uso y cobertura del suelo
 
 **Descripción:** Áreas urbanas de Paraguay concebidas cómo el área cubierta por la capa de manzanas de Paraguay generadas por el INE (2022) y áreas urbanas, industriales y comerciales extraídas de Open Street Map a junio de 2025. La capa de manzanas fue editada a fin de eliminar geometrías inválidas, posteriormente se aplicó un buffer de 200 m y se eliminaron los huecos residuales, finalmente se aplicó un buffer negativo de 150m
 

@@ -1,6 +1,6 @@
 # Distancia a áreas urbanas
 
-**Tipo de Dato:** distancia
+**Categoría:** distancia
 
 **Descripción:** Esta capa representa las áreas urbanas de Paraguay concebidas cómo el área cubierta por la capa de manzanas de Paraguay generadas por el INE (2022).
 

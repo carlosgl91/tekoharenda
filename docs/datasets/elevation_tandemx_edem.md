@@ -1,6 +1,6 @@
 # Elevación TanDEM-X 30 metros
 
-**Tipo de Dato:** Topográficos
+**Categoría:** Topográficos
 
 **Descripción:** TanDEM-X (complemento TerraSAR-X para mediciones digitales de elevación) es una misión de radar de observación de la Tierra que consta de un interferómetro SAR integrado por dos satélites prácticamente idénticos que vuelan en formación cerrada. Con una separación típica entre los satélites de entre 120 y 500 m, se ha generado un Modelo Digital de Elevación (MDE) global.
 

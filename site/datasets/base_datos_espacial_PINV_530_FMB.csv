@@ -1,0 +1,54 @@
+Nro.,Variable,Descripción,Grilla,Tipo,Tipo de datos,Resolución nativa en metros,Fuente de datos original,Fecha de publicación,EPSG code,Cita de fuente de datos originales,Problemas conocidos,EE asset,Asset type
+1,Áreas certificadas bajo el régimen de servicios ambientales,30m rasterized based on Mapbiomas grid,NO,Estatus de protección,Entero,30,Ministerio del Ambiente y Desarrollo Sostenible de Paraguay,Agosto 2022,4326,Ministerio del Ambiente y Desarrollo Sostenible (MADES). 2022. Base de datos espacial de áreas certificadas bajo el régimen de la ley 3001/06. Paraguay,,projects/arapy-487423/assets/eca/certified_areas_dec_2022,
+2,elevation_tandem-x_edem,30m elevation dataset,NO,Topográficos,Punto flotante,30,Deutsche Zentrum für Luft - und Raumfahrt (DLR),2010-2014,4979,"Deutsche Zentrum für Luft - und Raumfahrt (DLR). 2024. TanDEM-X - Edited Digital Elevation Model (EDEM) - Global, 30m. https://download.geoservice.dlr.de/TDM30_EDEM/#details",,,
+3,El SRTM Digital Elevation Data Version 4 (SRTM v4) ,90 m elevation DEM,NO,Topográficos,Entero,90,Google earth engine,2000,4326,"Jarvis, A., H.I. Reuter, A. Nelson, E. Guevara. 2008. Hole-filled SRTM for the globe Version 4, available from the CGIAR-CSI SRTM 90m Database: https://srtm.csi.cgiar.org.",,projects/arapy-487423/assets/topography/dem_PY_srtm_v4,
+4,promedio anual de precipitación acumulada periodo 01-01-1994 a 01-01-2024,Los datos de precipitación fueron calculados utilizando la base de datos “CHIRPS Pentad: Climate Hazards Center InfraRed Precipitation With Station Data” dentro de la plataforma Google Earth Engine abarcando el periodo 01-01-1994 a 01-01-2024. Los datos resultantes corresponden al promedio anual de precipitación acumulada en milímetros.,NO,climáticos,Punto flotante,5566 ,CHIRPS pentad,2015,4326,"Funk, Chris, Pete Peterson, Martin Landsfeld, Diego Pedreros, James Verdin, Shraddhanand Shukla, Gregory Husak, James Rowland, Laura Harrison, Andrew Hoell & Joel Michaelsen. ""The climate hazards infrared precipitation with stations-a new environmental record for monitoring extremes"". Scientific Data 2, 150066. doi:10.1038/sdata.2015.66 2015.",,projects/arapy-487423/assets/precipitation,
+5,Temperatura anual promedio en el periodo 1991-2019,"Para la generación de datos de temperatura se utilizó el set de datos de ERA 5 - Land1, el cual es un reanálisis
+climático desarrollado por el ECMWF (Centro Europeo de Predicción Meteorológica a Medio Plazo).
+Concretamente, se utilizó la banda de temperatura del aire (2m) en Kelvin, la cual fue convertida a grados
+centígrados mediante la sustracción de 273,15.",,climáticos,Punto flotante,11132 ,ERA5-Land Hourly - ECMWF Climate Reanalysis,2019,4326,"Muñoz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (<date of access>), doi:10.24381/cds.68d2bb30",,projects/arapy-487423/assets/temp,
+6,MapBiomas colección 5 1985-2023,"Se utilizó el conjunto de datos MapBiomas colección 2 (https://paraguay.mapbiomas.org/mapas-de-la-
+coleccion/), el cual proporciona mapas anuales de cobertura y uso del suelo a nivel nacional, con una
+resolución espacial de 30 metros y una cobertura temporal que abarca desde el año 1985 hasta el 2023, lo
+que permite analizar espacialmente y cuantificar cambios en la cobertura, tendencias de conversión de uso
+y patrones de dinámica territorial a lo largo del tiempo.",,Uso y cobertura del suelo,Entero,30,Mapbiomas Paraguay,1985-2023,4326,MapBiomas Paraguay. (2024). MapBiomas Paraguay collección 2. Disponible en: https://paraguay.mapbiomas.org/,,,
+7,"Datos de WorldClimb 1970-2000:  temperatura mínima, media y máxima, precipitación, radiación solar, velocidad del viento, presión de vapor de agua y precipitación total. Además se incluyen variables bioclimáticas que se derivan de los valores mensuales de temperatura y precipitación para generar variables con mayor relevancia biológica. En total 26 raster de variables climáticas y derivadas",,,climáticos,Entero,900,WorldClim,1970-2000,4326,Worldclimb. 2020. Historical climate data. Disponible en:https://worldclim.org/data/worldclim21.html ,,,
+8,Formaciones forestales mayores o iguales a 1ha - Año 2023,,,Uso y cobertura del suelo,Entero,30,Generado a partir de Mapbiomas Paraguay colección 2,2023,4326,MapBiomas Paraguay. (2024). MapBiomas Paraguay collección 2. Disponible en: https://paraguay.mapbiomas.org/,,projects/arapy-487423/assets/forest_1ha_col,collection
+9,Formaciones forestales más de 100 ha,,,Uso y cobertura del suelo,Entero,30,Generado a partir de Mapbiomas Paraguay colección 2,2023,4326,MapBiomas Paraguay. (2024). MapBiomas Paraguay collección 2. Disponible en: https://paraguay.mapbiomas.org/,,projects/arapy-487423/assets/forest_2023_over_100ha_MapBiomasPyCol2,image
+10,Áreas silvestres protegidas de Paraguay actualizado a agosto de 2022,,,Estatus de protección,Entero,30,Generado a partir de datos del MADES 2022,Agosto 2022,4326,Ministerio del Ambiente y Desarrollo Sostenible – Paraguay (MADES). 2022. Base de datos espacial de áreas silvestres protegidas de Paraguay. Disponible en: https://informacionpublica.paraguay.gov.py/#!/ciudadano/solicitud/63421,,projects/arapy-487423/assets/protected_areas_raster,image
+11,Comunidades indígenas FAPI 2024,,,Estatus de protección,Entero,30,Generado a patir de FAPI 2024,2024,4326,Federación por la autodeterminación de los Pueblo Indígenas (FAPI). 2024. Base de datos de tierras indígenas de Paraguay. Disponible en: https://tierras-indigenas-2024-fapi.hub.arcgis.com/datasets/cbce905f55af4d508f775a0ee39b9cec/about,,,
+12,Comunidades indígenas INDI 2024,,,Estatus de protección,Entero,30,Generado a patir de INDI 2017,2017,4326,Instituto nacional del indígena – Paraguay (INDI). 2017. Base de datos de comunidades indígenas del Paraguay.  Disponible en https://informacionpublica.paraguay.gov.py/#!/ciudadano/solicitud/63421,,,
+13,Áreas urbanas de Paraguay a partir de INE 2022,,,Uso y cobertura del suelo,Entero,30,Generado a partir de manzanas del INE 2022,2022,4326,Instituto Nacional de Estadística. (2022). Cartografía Digital 2022. Disponible en: https://www.ine.gov.py/microdatos/cartografia-digital-2022.php,,,
+14,Areas urbananas de Paraguay a partir de INE 2022 Y OSM 2025,,,Uso y cobertura del suelo,Entero,30,Generado a partir de manzanas del INE 2022 y OSM 2025,2022 y 2025,4326,Instituto Nacional de Estadística. (2022). Cartografía Digital 2022. Disponible en: https://www.ine.gov.py/microdatos/cartografia-digital-2022.php,,,
+15,Distancia a áreas urbanas ,,,distancia,Entero,30,Generado a partir de manzanas del INE 2022,2022,4326,Instituto Nacional de Estadística. (2022). Cartografía Digital 2022. Disponible en: https://www.ine.gov.py/microdatos/cartografia-digital-2022.php,,,
+16,"Distancia a áreas urbanas, industriales y comerciales ",,,distancia,Entero,30,Generado a partir de manzanas del INE 2022 y OSM 2025,2022 y 2025,4326,"OpenStreetMap contributors (OSM). 2015. OpenStreetMap [Datos de polígonos de áreas residenciales, comerciales e industriales]. Recuperado de https://www.openstreetmap.org/copyright",,,
+17,Distancia a formaciones forestales de más de 100 hectáreas,,,distancia,Entero,30,Generado a partir de Mapbiomas Paraguay colección 2,2023,4326,MapBiomas Paraguay. (2024). MapBiomas Paraguay collección 2. Disponible en: https://paraguay.mapbiomas.org/,,projects/arapy-487423/assets/distance_forest_100ha,image
+18,Distancia al borde dentro de formaciones boscosas de más al menos 1 ha,,,distancia,Entero,30,Generado a partir de Mapbiomas Paraguay colección 2,2023,4326,MapBiomas Paraguay. (2024). MapBiomas Paraguay collección 2. Disponible en: https://paraguay.mapbiomas.org/,,,
+19,Distancia al borde dentro de formaciones boscosas de más de 100 ha,,,distancia,Entero,30,Generado a partir de Mapbiomas Paraguay colección 2,2023,4326,MapBiomas Paraguay. (2024). MapBiomas Paraguay collección 2. Disponible en: https://paraguay.mapbiomas.org/,"Cambiar tipo de datos de float32 a enteros
+En una grilla dada se debe reconfigurar la distancia teniendo en cuenta la menor distancia en ese pixel.
+Los pixeles deberian cubrir solo el area de Paraguay, y el calculo tambien",,colecciones
+20,Distancia a ecosistemas acuáticos lóticos,,,distancia,Entero,30,,,4326,,,,
+21,Distancia a la red vial,,,distancia,Entero,30,Generado a partir de la capa de rutas del INE 2022,2023,,,,,
+22,Taxonomía del suelo en la Región Oriental,"El proyecto Racionalización de Uso de la Tierra PRUT (1995) Banco Mundial – Ministerio de Agricultura
+y Ganadería MAG / Subsecretaria de Estado de Recursos Naturales y Medio Ambiente (SEERNMA) – Dirección de Ordenamiento Ambiental (DOA), utiliza el sistema de clasificación jerárquica USDA Soil
+Taxonomy, que busca agrupar suelos similares en categorías cada vez más generales. Fue diseñada para
+apoyar los levantamientos de suelos en EE. UU., específicamente la correlación de series de suelos y la
+provisión de nombres de unidades cartográficas con diversos niveles de detalle cartográfico (FAOa, 2025).
+Los datos fueron curados en su formato vectorial y posteriormente rasterizados al nivel de subgrupos,
+utilizando como grilla de referencia el dataset de MapBiomas Paraguay colección 2. Se generó así mismo
+un diccionario de datos el cual incluye los códigos raster y descripción de acuerdo con la legenda FAO 1990
+(Figura 20, Anexo A1)",NO,categorico,Entero,30m,,1995,4326,"López, O.; González, E.; Llamas, P.; Molinas, A.; Franco, E.; García. S.; Ríos, E. 1995. Estudio de
+reconocimiento de suelos, capacidad de uso de la tierra y propuesta de ordenamiento territorial preliminar
+de la Región Oriental del Paraguay (PRUT). Asunción, PY: MAG/SRNMA/BM/PRUT. v.1, 197 p",,projects/arapy-487423/assets/soil_type_usda_soil_taxonomy,
+23,Taxonomía del suelo en la Región Occidental,"El proyecto Sistema Ambiental del Chaco (PSACh) BGR (Bundesanstalt für Geowissenschaften und
+Rohstoffe – Hannover / Rca. Federal de Alemania Cooperación Técnica y el MAG/SSERNMA-DOA
+generó datos para la región Occiental basados en el sistema del Mapa Mundial de Suelos (FAO-UNESCO,
+1990) con una escala de trabajo de 1:250.000 y publicación de 1:750.000.
+Los datos fueron curados en su formato vectorial y posteriormente rasterizados al nivel de subtipos,
+utilizando como grilla de referencia el dataset de MapBiomas Paraguay colección 2. Se generó así mismo
+un diccionario de datos el cual incluye los códigos raster y descripción de acuerdo con la legenda FAO 1990",NO,categorico,Entero,30m,,1990,4326,,,projects/arapy-487423/assets/soil_type_FAO_1990_paraguay_BGR,
+24,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,

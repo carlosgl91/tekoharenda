@@ -1,10 +1,13 @@
 # Formaciones forestales mayores o iguales a 1ha - Año 2023
 
-**Tipo de Dato:** Uso y cobertura del suelo
-**Descripción:** 
+**Categoría:** Uso y cobertura del suelo
+
+**Descripción:** Esta capa consiste en los parches de formaciones forestales correspondientes a “Leñosas cerradas” y “leñosas inundables” de la capa de MapBiomas Paraguay colección 2 correspondiente al año 2023, cuyo tamaño es mayor o igual a 1 ha.
 
 **Resolución Espacial:** 30 metros
+
 **Fuente Original:** Generado a partir de Mapbiomas Paraguay colección 2
+
 **Fecha de Publicación:** 2023
 
 ## Acceso en Google Earth Engine
