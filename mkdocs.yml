@@ -1,11 +1,12 @@
 site_name: TEKOHARENDA - Catálogo Nacional de Datos Espaciales del Paraguay
 site_description: Catálogo Nacional de Datos Espaciales del Paraguay
-site_url: https://TU_USUARIO.github.io/tekoharenda 
+site_url: https://carlosgl91.github.io/tekoharenda 
 
 theme:
   name: material
   palette:
     primary: teal
+  logo: assets/logo_tekoharenda_logo.jpg 
   features:
     #- navigation.tabs
     #- navigation.sections
@@ -15,40 +16,46 @@ theme:
    # - toc.integrate         # Integra los subtítulos en el menú izquierdo
     - navigation.expand     # Hace que las categorías sean desplegables
     - navigation.sections   # Hace que los bloques del menú se vean más como secciones ordenadas
-
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Inicio: index.md
   - Catálogo de Datos:
-    - Estatus de uso:
-      - 'Áreas certificadas bajo el régimen de servicios ambientales': datasets/reas_certificadas_bajo_el_rgimen_de_servicios_ambi.md
-      - 'Áreas silvestres protegidas de Paraguay actualizado a agosto de 2022': datasets/reas_silvestres_protegidas_de_paraguay_actualizado.md
-      - 'Comunidades indígenas FAPI 2024': datasets/comunidades_indgenas_fapi_2024.md
-      - 'Comunidades indígenas INDI 2024': datasets/comunidades_indgenas_indi_2024.md    
-    - Topografía:
-      - 'Elevation TanDEM-X EDEM': datasets/elevation_tandemx_edem.md
-      - 'El SRTM Digital Elevation Data Version 4 (SRTM v4)': datasets/el_srtm_digital_elevation_data_version_4_srtm_v4.md
     - Clima:
-      - 'Promedio anual de precipitación acumulada periodo 01-01-1994 a 01-01-2024': datasets/promedio_anual_de_precipitacin_acumulada_periodo_0.md
-      - 'Temperatura anual promedio en el periodo 1991-2019': datasets/temperatura_anual_promedio_en_el_periodo_19912019.md
-      - 'Datos de WorldClimb 1970-2000': datasets/datos_de_worldclimb_19702000__temperatura_mnima_me.md
-    - Uso y cobertura del suelo:
-      - 'MapBiomas colección 5 1985-2023': datasets/mapbiomas_coleccin_5_19852023.md
+      - 'Promedio anual de precipitación acumulada periodo 01-01-1994 a 01-01-2024': datasets/climate/annual_prec_1994_2024_chirps_pentad.md
+      - 'Temperatura anual promedio en el periodo 1991-2019': datasets/climate/annual_temp_19912019_era5.md
+      - 'Datos de WorldClimb 1970-2000': datasets/climate/worldclimb_19702000.md
     - Ecología:
-      - 'Formaciones forestales mayores o iguales a 1ha - Año 2023': datasets/formaciones_forestales_mayores_o_iguales_a_1ha__ao.md
-      - 'Formaciones forestales más de 100 ha': datasets/formaciones_forestales_ms_de_100_ha.md
-      - 'Áreas urbanas de Paraguay a partir de INE 2022': datasets/reas_urbanas_de_paraguay_a_partir_de_ine_2022.md
-      - 'Areas urbananas de Paraguay a partir de INE 2022 Y OSM 2025': datasets/areas_urbananas_de_paraguay_a_partir_de_ine_2022_y.md
-    - Distancia:
-      - 'Distancia a áreas urbanas': datasets/distancia_a_reas_urbanas.md
-      - 'Distancia a áreas urbanas, industriales y comerciales': datasets/distancia_a_reas_urbanas_industriales_y_comerciale.md
-      - 'Distancia a formaciones forestales de más de 100 hectáreas': datasets/distancia_a_formaciones_forestales_de_ms_de_100_he.md
-      - 'Distancia al borde dentro de formaciones boscosas de más al menos 1 ha': datasets/distancia_al_borde_dentro_de_formaciones_boscosas_.md
-      - 'Distancia al borde dentro de formaciones boscosas de más de 100 ha': datasets/distancia_a_formaciones_forestales_de_ms_de_100_he.md
-      - 'Distancia a ecosistemas acuáticos lóticos': datasets/distancia_a_ecosistemas_acuticos_lticos.md
-      - 'Distancia a la red vial': datasets/distancia_a_la_red_vial.md
+      - 'Formaciones forestales mayores o iguales a 1ha - Año 2023': datasets/ecology/formaciones_forestales_mayores_o_iguales_a_1ha__ao.md
+      - 'Formaciones forestales más de 100 ha': datasets/ecology/formaciones_forestales_ms_de_100_ha.md
+      - 'Áreas urbanas de Paraguay a partir de INE 2022': datasets/ecology/urban_areas_py_ine_2022.md
+      - 'Areas urbananas de Paraguay a partir de INE 2022 Y OSM 2025': datasets/ecology/urban_areas_ine_&_osm_2022.md
+      - 'Distancia al borde dentro de formaciones boscosas de al meno 1 ha': datasets/ecology/dist_to_border_within_forest_1ha.md
+      - 'Distancia a ecosistemas acuáticos lóticos': datasets/ecology/dist_to_lotic_ecosystems.md
+      - 'Distancia a la red vial': datasets/ecology/dist_to_road_network.md
+      - 'Distancia a áreas urbanas': datasets/ecology/dist_to_urban_areas_ine_2022.md
+      - 'Distancia a áreas urbanas, industriales y comerciales': datasets/ecology/dist_to_urban_industrial_and_comercial_areas.md
+      - 'Distancia a formaciones forestales de más de 100 hectáreas': datasets/ecology/dist_to_forest_border_100_ha.md
+    - Estatus de uso:
+      - 'Áreas certificadas bajo el régimen de servicios ambientales': datasets/estatus_de_proteccion/areas_certificadas_csa.md
+      - 'Áreas silvestres protegidas de Paraguay actualizado a agosto de 2022': datasets/estatus_de_proteccion/areas_silvestres_protegidas.md
+      - 'Comunidades indígenas FAPI 2024': datasets/estatus_de_proteccion/comunidades_indgenas_fapi_2024.md
+      - 'Comunidades indígenas INDI 2024': datasets/estatus_de_proteccion/comunidades_indgenas_indi_2024.md    
+    - Topografía:
+      - 'Elevation TanDEM-X EDEM': datasets/topography/elevation_tandemx_edem.md
+      - 'El SRTM Digital Elevation Data Version 4 (SRTM v4)': datasets/topography/srtm_dem_version_v4.md
+    
+    - Uso y cobertura del suelo:
+      - 'MapBiomas colección 5 1985-2023': datasets/landcover_landuse/mapbiomas_col_5_19852023.md
+      
     - Suelos:    
-      - 'Taxonomía del suelo en la Región Oriental': datasets/taxonoma_del_suelo_en_la_regin_oriental.md
-      - 'Taxonomía del suelo en la Región Occidental': datasets/taxonoma_del_suelo_en_la_regin_occidental.md
+      - 'Taxonomía del suelo en la Región Oriental': datasets/soils/soil_tax_east_reg_soil_taxonomy.md
+      - 'Taxonomía del suelo en la Región Occidental': datasets/soils/soil_tax_west_reg_fao_class.md
+    - Fire:
+      - 'MapBiomas Fuego colección 1 (Anual)': datasets/fire/mapbiomas_fire_col1_annual.md
+      - 'MapBiomas Fuego colección 1 (Mensual)': datasets/fire/mapbiomas_fire_col1_monthly.md
+
+  - Citación: citation.md
 
 extra:
   social:

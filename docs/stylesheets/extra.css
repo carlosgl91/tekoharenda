@@ -1,0 +1,11 @@
+/* Agranda el contenedor del logo */
+.md-header__button.md-logo img {
+  height: 4rem; /* El tamaño por defecto es 1.5rem */
+  width: auto;
+}
+
+/* Ajusta el espaciado para que la barra no se vea apretada */
+.md-header__inner {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
