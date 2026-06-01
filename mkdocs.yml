@@ -6,7 +6,7 @@ theme:
   name: material
   palette:
     primary: teal
-  logo: assets/logo_tekoharenda_logo.jpg 
+  logo: assets/logo_tekoharenda_png.png 
   features:
     #- navigation.tabs
     #- navigation.sections
@@ -51,7 +51,7 @@ nav:
     - Suelos:    
       - 'Taxonomía del suelo en la Región Oriental': datasets/soils/soil_tax_east_reg_soil_taxonomy.md
       - 'Taxonomía del suelo en la Región Occidental': datasets/soils/soil_tax_west_reg_fao_class.md
-    - Fire:
+    - Fuego:
       - 'MapBiomas Fuego colección 1 (Anual)': datasets/fire/mapbiomas_fire_col1_annual.md
       - 'MapBiomas Fuego colección 1 (Mensual)': datasets/fire/mapbiomas_fire_col1_monthly.md
 

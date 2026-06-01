@@ -51,3 +51,7 @@ Puedes acceder a este conjunto de datos en el Code Editor de GEE usando el sigui
 ## Cita
 Si utilizas estos datos, por favor cita la fuente original:
 > *MapBiomas Paraguay. (2024). MapBiomas Paraguay collección 2. Disponible en: https://paraguay.mapbiomas.org/*
+
+
+Datos procesados:
+> *Giménez, C. (2026). Capa raster binaria de Formaciones forestales mayores o iguales a 1ha - Año 2023 (Versión 1.0)[Dataset de Google Earth Engine]. Tekoharenda: Catálogo Nacional de Datos Espaciales. https://carlosgl91.github.io/tekoharenda/*
